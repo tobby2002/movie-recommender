@@ -37,7 +37,14 @@ Dependencies:
   - ast
   - matplotlib
   - nltk
-  
+
+Installation
+ - nltk : pip install nltk
+ - Sklearn: pip install sklearn
+ - pandas: pip install pandas
+ - numpy: pip install numpy
+ - matplotlib: pip install matplotlib
+
 Run the projecy on local:
  - Clone the project: by downloading or git command: git clone https://github.com/diem-ai/movie-recommender.git
  - Install libraries in Requirements and Dependencies
