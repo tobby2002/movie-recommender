@@ -1,6 +1,4 @@
 Hydrid Movie Recommendation system:
-
-
 project structure:
    |___data
           |___ normalised_movies.csv
