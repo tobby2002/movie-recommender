@@ -6,10 +6,18 @@ project structure:
           |___ normalised_movies.csv
           |___ ratings_matrix.csv
           |___ content_matrix.csv
+          |___ metadata_movies.csv
+          |___ ratings.csv
+          |___ credits.csv
+          |___ keywords.csv
    |___ HybridRecommendationModel.ipynb
    |___ HydridModelEvaluation.ipynb
    |___ recommender.py
-   
+  
+ Data Notes:
+  - metadata_movies.csv, ratings.csv, credits.csv and keywords can be found on Kaggle.com
+  - normalised_movies.csv, ratings_matrix.csv and content_matrix.csv are generated when training model: HybridRecommendationModel.ipynb
+  - Those files are the input for HydridModelEvaluation.ipynb
  
  Requirements:
   - Python >= 3.7
