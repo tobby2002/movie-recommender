@@ -12,10 +12,13 @@ project structure:
    |___ HydridModelEvaluation.ipynb
    |___ recommender.py
   
- Data Notes:
+ Data/Files Notes:
   - metadata_movies.csv, ratings.csv, credits.csv and keywords can be found on Kaggle.com
   - normalised_movies.csv, ratings_matrix.csv and content_matrix.csv are generated when training model: HybridRecommendationModel.ipynb
   - Those files are the input for HydridModelEvaluation.ipynb
+  - recommender.py consist of 2 python classes: 
+      - class Utility: help for cleaning data, showing top movies with right format, looking for id/index of movie
+      - class Similarity: compute the cosine similariy between sparse matrix (ratings_matrix.csv or content_matrix.csv) and given movie
  
  Requirements:
   - Python >= 3.7
