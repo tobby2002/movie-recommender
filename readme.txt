@@ -19,7 +19,8 @@ project structure:
   - recommender.py consist of 2 python classes: 
       - class Utility: help for cleaning data, showing top movies with right format, looking for id/index of movie
       - class Similarity: compute the cosine similariy between sparse matrix (ratings_matrix.csv or content_matrix.csv) and given movie
- 
+  - Because of large datasets, all note books are run on Colab. If you want to run them on local, check out the below "Run on Local"
+  
  Requirements:
   - Python >= 3.7
   - Jupyter Notebook
@@ -33,8 +34,9 @@ project structure:
   - nltk
   
 Run the projecy on local:
- - clone the project: by downloading or git command: git clone https://github.com/diem-ai/movie-recommender.git
- - install libraries in Requirements and Dependencies
+ - Clone the project: by downloading or git command: git clone https://github.com/diem-ai/movie-recommender.git
+ - Install libraries in Requirements and Dependencies
+ - Comment the colab set and change the file path
  
  Credtis:
  Datasets are downloaded on Kaggle.com
