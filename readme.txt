@@ -15,6 +15,8 @@ Project structure:
           |___ keywords.csv
    |___ HybridRecommendationModel.ipynb
    |___ HydridModelEvaluation.ipynb
+   |___ HybridRecommendationModel.html
+   |___ HydridModelEvaluation.html
    |___ recommender.py
   
  Data/Files Notes:
@@ -25,6 +27,7 @@ Project structure:
       - class Utility: help for cleaning data, showing top movies with right format, looking for id/index of movie
       - class Similarity: compute the cosine similariy between sparse matrix (ratings_matrix.csv or content_matrix.csv) and given movie
   - Because of large datasets, all note books are run on Colab. If you want to run them on local, check out the below "Run on Local"
+  - HybridRecommendationModel.html and HydridModelEvaluation.html: for reading notebooks on web browser.
   
  Requirements:
   - Python >= 3.7
