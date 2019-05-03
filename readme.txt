@@ -2,6 +2,7 @@ Hydrid Movie Recommendation system:
   - It is combination of Item-item collaborative filtering and content based model
   - Item item similarity: It uses the most similar items to a user's already-rated items to generate a list of recommendations. The result is the cosine of those rating vectors.
   - Content based similarity: This method bases on the information of movies such as: genres, stars and crew.
+  - Both models use truncated singular value decomposition (SVD) to overcome dimensionality curse
   
 Project structure:
    |___data
@@ -43,5 +44,9 @@ Run the projecy on local:
  - Dowload datasets (on Kaggle) and put them on /data directory
  - Comment the colab setup part (first part) and change the file path
  
- Credtis:
+Improvements (next commits):
+ - Build a simple webapp for simulation
+ - Applying deeplearning
+
+Credtis:
  Datasets are downloaded on Kaggle.com
