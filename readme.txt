@@ -1,5 +1,9 @@
 Hydrid Movie Recommendation system:
-project structure:
+  - It is combination of Item-item collaborative filtering and content based model
+  - Item item similarity: It uses the most similar items to a user's already-rated items to generate a list of recommendations. The result is the cosine of those rating vectors.
+  - Content based similarity: This method bases on the information of movies such as: genres, stars and crew.
+  
+Project structure:
    |___data
           |___ normalised_movies.csv
           |___ ratings_matrix.csv
@@ -24,8 +28,8 @@ project structure:
  Requirements:
   - Python >= 3.7
   - Jupyter Notebook
- 
- Dependencies:
+
+Dependencies:
   - pandas
   - sklearn
   - numpy
@@ -36,7 +40,8 @@ project structure:
 Run the projecy on local:
  - Clone the project: by downloading or git command: git clone https://github.com/diem-ai/movie-recommender.git
  - Install libraries in Requirements and Dependencies
- - Comment the colab set and change the file path
+ - Dowload datasets (on Kaggle) and put them on /data directory
+ - Comment the colab setup part (first part) and change the file path
  
  Credtis:
  Datasets are downloaded on Kaggle.com
