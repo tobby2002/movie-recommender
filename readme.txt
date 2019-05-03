@@ -55,5 +55,5 @@ Improvements (next commits):
  - Build a simple webapp for simulation
  - Applying deeplearning
 
-Credtis:
- Datasets are downloaded on Kaggle.com
+Acknowledgements:
+ Got Datasets from Kaggle.com
