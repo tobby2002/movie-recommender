@@ -54,6 +54,7 @@ Run the projecy on local:
 Improvements (next commits):
  - Build a simple webapp for simulation
  - Applying deeplearning
+ - Evaluate models with Suprise 
 
 Acknowledgements:
  Got Datasets from Kaggle.com
