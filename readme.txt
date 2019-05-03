@@ -22,3 +22,7 @@ project structure:
   - ast
   - matplotlib
   - nltk
+  
+Run the projecy on local:
+ - clone the project: by downloading or git command: git clone https://github.com/diem-ai/movie-recommender.git
+ - install libraries in Requirements and Dependencies
